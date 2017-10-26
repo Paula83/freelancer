@@ -1,3 +1,324 @@
-/*
+/*`, `#18bc9c`,
+  `#212529`.
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Lato', sans-serif;
  * Estilos de tu proyecto
+ #2c3e50
  */
+ body{
+ 	margin: 0 auto;
+ }
+
+/* barra menu*/
+ header{
+ 	background: #2c3e50;
+ 	width: 100%;
+ 	height: 90px;
+ 	float: right;
+ }
+
+ header h2{
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #ffffff;
+}
+
+ h3{
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: #000;
+}
+
+ul {
+	font-family: 'Montserrat', sans-serif;
+    color: #fff;
+ 	list-style: none;
+ 	padding: 0
+ 	margin:0;
+ 	
+ }
+
+ a{
+ 	color: #fff;
+ 	float: right;
+ 	text-decoration: none;
+ }
+
+ol{
+	width: 200px;
+	display: inline-block;
+	float: right;
+
+}
+/*main contenedor - strat bootstrap*/
+.contenedor{
+	background-color: #18bc9c;
+	text-align:center;
+	width: 100%;
+	height: 600px;
+}
+
+.muñeco{
+	background-image: 100%;
+	width: 256px;
+	height: 256px;
+}
+
+.rayita{
+
+    width: 240px;
+	height: 5px;
+	background-color:#fff;
+	margin-left: 600px;
+	margin-top: -24px;
+
+}
+.estrellita{
+   color:#fff;
+   padding:8px;
+   font-size: 32px;
+   background: #18bc9c;	
+}
+
+span{
+
+	font-size: 25px;
+	display:inline-block;
+	margin: 15px;
+}
+
+div {
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+
+}
+/* article - portafolio*/
+div h2{
+	font-family: 'Montserrat', sans-serif;
+ 	color: #000;
+ 	font-size: 30px;
+}
+
+
+.estrella{
+	color:#000;
+	padding:8px;
+	font-size: 32px;
+	background:#fff;
+}
+
+div .linea{
+	width: 240px;
+	height: 5px;
+	background-color:#000;
+	margin-left: 600px;
+	margin-top: -27px;
+}
+
+.info{
+	font-family: 'Montserrat', sans-serif;
+ 	color: #fff;
+ 	font-size: 20px;
+
+}
+
+.images{
+width: 1280px;
+margin-left: 67px;
+display: inline-block;
+float: left;
+}
+
+img{
+	width: 345px;
+	height: 242px;
+	padding: 13px;
+	vertical-align: middle;
+	border-style: none;
+}
+
+/* section - about*/
+
+section h1{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+
+}
+
+ .estrellota{ 
+    width: 240px;
+	height: 5px;
+	background-color:#fff;
+	margin-left: 600px;
+	margin-top: -24px;
+}
+
+.linea3{
+	width: 50px;
+	height: 2px;
+	background-color:#fff;
+}
+
+#about{
+	width: 100%;
+	height: 500px;
+    background-color: #18bc9c;
+    text-align:center;
+    float:left;
+
+}
+
+.primero{
+   
+	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	margin-left: 20px;
+	padding:0px;
+	display: inline-block;
+	width: 300px;
+}	
+button{
+	background-color: #18bc9c;
+	width: 250px; 
+	height:50px;
+	border-radius: 10px;
+	border-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color:#fff; 
+	text-align: center;
+	margin: 0 auto;
+
+}
+
+div.hover{
+ background: #fff;
+ 
+}
+
+.download {
+	color:#000;
+	margin: 0 auto;
+}
+
+/* contact me*/
+h1{
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	text-align:center;
+
+}
+
+
+/* Section - form*/
+
+
+form{
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px; 
+	color: #ccc;
+	margin:5px;
+	padding: 20px;
+	width: 100%;
+	height: 500px;
+
+}
+
+label{
+	font-size: 20px;
+	display:block;
+	width: 100%;
+	text-align: center;
+}
+
+textarea{
+	resize:vertical;
+	max-height: 300px;
+	min-height: 200px;
+}
+
+input, textarea{
+	margin-bottom: 10px;
+	width:60%;
+	padding: 10px;
+	border: 1px, solid #ccc;
+	text-align:center;
+}
+
+input.focus, textarea.focus{
+border: 1px solid #18bc9c;
+
+}
+
+
+input[type="submit"]{
+	margin-bottom: 2px
+	background-color:#18bc9c;
+	color:#fff;
+	border:none;
+	
+}
+
+input[type="submit"].hover{
+ background: #ccc;
+ cursor:pointer;
+}
+
+/*Footer - información adicional/*/
+footer{
+	background-color:#2c3e50;
+ 	width: 100%;
+	height: 500px;
+	
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px; 
+	color: #fff;
+	margin:2px;
+	padding: 0px;
+}
+
+
+
+footer div{
+	display: inline-block;
+	width: 25%;
+}
+
+footer{
+	text-align: center;
+}
+
+.icon div{
+	width: 15%;
+	
+}	
+.fa-google{
+	border-radius: 4px;
+	color:#fff;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+ 
+
+ /*
+ 	
+ 	line-height: 20px; 
+ 	text-align: center;
+ 	float: right;
+}
+

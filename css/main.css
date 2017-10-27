@@ -1,15 +1,18 @@
-/*`, `#18bc9c`,
-  `#212529`.
-  font-family: 'Montserrat', sans-serif;
-font-family: 'Lato', sans-serif;
- * Estilos de tu proyecto
- #2c3e50
+/* El siguiente CSS cuenta con los atributos,propiedades 
+y valores que le daran Stylo al proyecto de la página web Freelancer.
+cada parte del maqutado HTML se encuentra señalado dentro del CSS 
+por un comentario que indica el inicio y final 
+del bloque.  
+Código de colores #18bc9c,#212529,#2c3e50 .
+*Tipo de letras font-family: 'Montserrat', sans-serif;
+Tipografía: font-family: 'Lato', sans-serif;
+  
  */
  body{
  	margin: 0 auto;
  }
 
-/* barra menu*/
+/*  header_barra menu*/
  header{
  	background: #2c3e50;
  	width: 100%;
@@ -48,7 +51,7 @@ ol{
 	float: right;
 
 }
-/*main contenedor - strat bootstrap*/
+/*main contenedor_strat bootstrap*/
 .contenedor{
 	background-color: #18bc9c;
 	text-align:center;
@@ -91,7 +94,7 @@ div {
 	text-align:center;
 
 }
-/* article - portafolio*/
+/* article_portafolio*/
 div h2{
 	font-family: 'Montserrat', sans-serif;
  	color: #000;
@@ -111,7 +114,7 @@ div .linea{
 	height: 5px;
 	background-color:#000;
 	margin-left: 600px;
-	margin-top: -27px;
+	margin-top: -20px;
 }
 
 .info{
@@ -136,27 +139,28 @@ img{
 	border-style: none;
 }
 
-/* section - about*/
+/* section_about*/
 
 section h1{
 	color: #fff;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-size: 30px;
 
 }
 
  .estrellota{ 
-    width: 240px;
-	height: 5px;
-	background-color:#fff;
-	margin-left: 600px;
-	margin-top: -24px;
+	color:#fff;
+    padding:8px;
+    font-size:36px;
+    background: #18bc9c;	
 }
 
 .linea3{
-	width: 50px;
-	height: 2px;
+	width: 240px;
+	height: 5px;
 	background-color:#fff;
+	margin-left: 600px;
+	margin-top: -20px;
 }
 
 #about{
@@ -165,7 +169,7 @@ section h1{
     background-color: #18bc9c;
     text-align:center;
     float:left;
-
+    
 }
 
 .primero{
@@ -177,6 +181,7 @@ section h1{
 	padding:0px;
 	display: inline-block;
 	width: 300px;
+
 }	
 button{
 	background-color: #18bc9c;
@@ -188,7 +193,9 @@ button{
 	font-size: 20px;
 	color:#fff; 
 	text-align: center;
-	margin: 0 auto;
+    margin-right:550px;
+	display: inline;
+
 
 }
 
@@ -202,18 +209,7 @@ div.hover{
 	margin: 0 auto;
 }
 
-/* contact me*/
-h1{
-	color: #000;
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-	text-align:center;
-
-}
-
-
-/* Section - form*/
-
+/* /* div_form:contact me*/
 
 form{
 	background-color: #fff;
@@ -223,15 +219,42 @@ form{
 	margin:5px;
 	padding: 20px;
 	width: 100%;
-	height: 500px;
+	height: 600px;
+	}
+
+.container h1{
+	color: #000;
+	font-family: 'Lato', sans-serif;
+	font-size: 50px;
+	text-align:center
+}
+
+.estrella1{ 
+	color:#000;
+    padding:8px;
+    font-size:36px;
+    background: #fff;	
+}
+
+.linea4{
+	width: 240px;
+	height: 5px;
+	background-color:#000;
+	margin-left: 600px;
+	margin-top: -20px;
+
 
 }
 
 label{
-	font-size: 20px;
-	display:block;
+	background-color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 80px; 
+	color: #ccc;
+	display:inline-flex;
 	width: 100%;
-	text-align: center;
+	margin-left:100px;
+	
 }
 
 textarea{
@@ -244,21 +267,20 @@ input, textarea{
 	margin-bottom: 10px;
 	width:60%;
 	padding: 10px;
-	border: 1px, solid #ccc;
-	text-align:center;
-}
-
-input.focus, textarea.focus{
-border: 1px solid #18bc9c;
-
+	border: 1px, #ccc;
+	margin-left: 50px;
 }
 
 
 input[type="submit"]{
-	margin-bottom: 2px
+
 	background-color:#18bc9c;
 	color:#fff;
-	border:none;
+	border-radius: 3px;
+	width: 100px;
+	padding-top: 10px;
+    display:block; 
+
 	
 }
 
@@ -267,7 +289,7 @@ input[type="submit"].hover{
  cursor:pointer;
 }
 
-/*Footer - información adicional/*/
+/*Footer_información adicional/*/
 footer{
 	background-color:#2c3e50;
  	width: 100%;
@@ -315,10 +337,5 @@ footer{
 
  
 
- /*
- 	
- 	line-height: 20px; 
- 	text-align: center;
- 	float: right;
-}
+ 
 
